@@ -9,11 +9,11 @@ from .spec import TopicSpecs, CommandTopicSpecs
 
 class BotListener(Node):
     def __init__(self,
-                 host: str = 'localhost',
+                 host: str = 'porpoise.rmq.cloudamqp.com',
                  port: int = 1883,
-                 username: str = '',
-                 password: str = '',
-                 bot_id: str = 'bot1',
+                 username: str = 'mozkipga:mozkipga',
+                 password: str = 'bswg9aPhtidhIlvQG7V5FyYA0rBX6ys-',
+                 bot_id: str = 'dy-hed-1-usdc-1',
                  namespace: str = 'hbot',
                  notifications: bool = True,
                  events: bool = True,

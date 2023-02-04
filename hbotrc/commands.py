@@ -10,10 +10,10 @@ from .spec import TopicSpecs, CommandTopicSpecs
 class BotCommands(Node):
     def __init__(self,
                  bot_id: str,
-                 host: str = 'localhost',
+                 host: str = 'porpoise.rmq.cloudamqp.com',
                  port: int = 1883,
-                 username: str = '',
-                 password: str = '',
+                 username: str = 'mozkipga:mozkipga',
+                 password: str = 'bswg9aPhtidhIlvQG7V5FyYA0rBX6ys-',
                  namespace: str = 'hbot',
                  **kwargs
                  ):
