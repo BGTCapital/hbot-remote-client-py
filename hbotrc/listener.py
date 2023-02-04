@@ -1,5 +1,4 @@
 import asyncio
-import commlib
 from commlib.node import Node
 from commlib.transports.mqtt import ConnectionParameters
 from typing import Any, List, Optional, Tuple, Callable
