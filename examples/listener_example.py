@@ -15,10 +15,10 @@ if __name__ == "__main__":
         print('Give instance_id argument')
     _id = sys.argv[1]
     client = BotListener(
-        host='localhost',
+        host='porpoise.rmq.cloudamqp.com',
         port=1883,
-        username='',
-        password='',
+        username='mozkipga:mozkipga',
+        password='bswg9aPhtidhIlvQG7V5FyYA0rBX6ys-',
         bot_id=_id,
         notifications=True,
         events=True,
